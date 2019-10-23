@@ -1,0 +1,16 @@
+
+Definition of Cross-Correlation
+1.Cross Correlation is the measure of similarity of two series as a function of displacement of one relative to other.
+2.It is used to search a long signal for a shorter known feature.
+3.Similar to convolution
+4.Used for finding a known signal.
+
+Properties
+1.Linearity
+2. Difference and Running SUM
+First Difference -> Each sample in the output signal is equal to the difference between the adjacent samples
+y[n] = x[n] - x[n-1]
+Running Sum -> Recursive and difference equation.
+y[n] = x[n]+y[n+1]
+3. Commuatitive a[n]*b[n] = b[n]*a[n]
+4. Distributive and associative
