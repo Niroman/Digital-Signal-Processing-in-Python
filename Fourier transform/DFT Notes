@@ -1,0 +1,5 @@
+Discrete Fourier Transform
+1. DFT can be calculated using
+    a.Simultaneous Equation
+    b.Correlation
+    c.FFT

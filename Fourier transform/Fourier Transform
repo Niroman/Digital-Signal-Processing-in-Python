@@ -1,0 +1,26 @@
+1. Fourier Analysis is mainly used for Discrete Fourier Transform
+
+Periodic - Discrete Signals can be analysed by "Discrete Fourier Transform"
+Periodic - Continous Signals can be analysed by "Fourier Series"
+APeriodic - Discrete Signals can be analysed by "Discrete Time Fourier Transform"
+APeriodic - Continous Signals can be analysed by "Fourier Transform"
+
+2. Discrete Fourier Transform.
+A 16 point signal can be converted into Sine or cos wave using DFT.
+
+N-Point signal(Time Domain) -> DFT (Fourier Transform)->(1. N/2+1Cosine waves , 2. N/2+Sine wave) ->(Frequency domain has the Real part and the Complex Part)
+
+Time Domain x[] -> (Analysis, Decomposition,Forward DFT or DFT) -> Frequency Domain
+Time Domain <- (Synthesis,Inverse DFT) <- Frequency Domain X[]
+
+3. Three ways of representing the signal in Frequency Domain.
+1. In Points(N/2 -> Real & N/2 -> Imaginary) They are called end points
+2. As a sampling frequency (Nyquist theorem)
+3. As a phase signal.(0 to pie) Natural Frequency.
+
+Amplitude -> X-axis
+Frequency -> Y-axis
+
+Analysis: DFT (Sending the signal)
+Synthesis:IDFT (Any signal can be reproduced by adding the sine and cosine wave by N/2)
+Zero Crossings: When the signal crosses the zero line. It will cause a phase shit and distortion.
