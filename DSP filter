@@ -1,0 +1,45 @@
+Basic Analog filters.
+1. Bessel Filters
+2. Butterworth Filters - good frequency response
+3. Chebyshev filters - bedt frequency response
+
+Building filters of Analog Filters
+
+1. RC Passive Low pass filter.
+    High Freq -> It becomes a short circuit
+    Low Freq -> It becomes open circuit.
+
+Cutoff Frequency is used to design the Analog Filters: Fc = 1/2(pi)R*C
+
+Modified Sallen Key Filter:
+1. Made of active and passive companents.
+
+Synthesis - > The only way to combine two signals is by scaling and addition
+Decomposition -> Removing the additive components
+Impulse Decomposition
+1. Only the samples value is set to one. other values are set to zero
+
+Step Decomposition
+1. The sampled value is set to one and the rest of the signal is also set to zero in the same plane.
+
+Convolution:
+1.Delta Function is a normalized Impulse Response.(Unit Impulse)
+2.Impulse Response: If the Delta function passess a system it will produce an Impulse Response.
+
+
+Sampling Rate and Nyquist rate
+x = sin(2000*pi*t)
+f = 1000
+Nyq Rate = 2*1000
+1. Nyquist Rate - Two times the maximum Frequency in Hz.
+2. Nyquist Interval - 1/Nyq Rate - in Sec
+
+Nyquist Sampling Theorem Says this:
+
+Sampling Rate (Nyquist Rate) should be double the maximum frequency.
+Nyquist Frequency ( Sampling Frequency)
+
+
+In signal processing, the Nyquist rate, named after Harry Nyquist, is twice the bandwidth of a bandlimited function or a bandlimited channel. ...
+as a lower bound for the sample rate for alias-free signal sampling
+(not to be confused with the Nyquist frequency, which is half the sampling rate of a discrete-time system) and
